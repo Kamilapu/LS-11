@@ -21,6 +21,10 @@ a {
      --ff-main: "Montserrat", sans-serif;
 }
 
+svg {
+     fill: var(--main-color);
+}
+
 .container {
      max-width: 1168px;
      margin-inline: auto;
