@@ -34,10 +34,6 @@ a {
      margin-bottom: 197px;
 }
 
-.header__logo {}
-
-.logo {}
-
 .header__btn {
      display: flex;
      font-family: var(--ff-main);
@@ -65,8 +61,6 @@ a {
      font-weight: 700;
      line-height: 20px;
 }
-
-.main {}
 
 .tittle {
      text-align: center;
@@ -96,9 +90,11 @@ h1 {
 .block {
      display: flex;
      gap: 32px;
+
+     margin-bottom: 87px;
 }
 
-.block_elem > img {
+.block_elem>img {
      padding-top: 16px;
 }
 
@@ -128,10 +124,87 @@ h1 {
      text-align: justify;
 }
 
-.delivery {}
+.grid {
+     margin-bottom: 80px;
+}
 
-.service {}
+.row {
+     display: flex;
+     flex-wrap: wrap;
+     gap: 20px;
+}
 
-.plants {}
+.col>img {
+     background-color: #F3F4F6;
+     margin-bottom: 16px;
+}
 
-.price {}
+.col {
+     flex: 0 1 calc((100% - 20px * 4)/5);
+}
+
+.plant_name {
+     color: #000;
+     text-align: center;
+     font-family: var(--ff-main);
+     font-size: 16px;
+     font-weight: 400;
+     margin-bottom: 8px;
+}
+
+.plant_number {
+     color: #000;
+     text-align: center;
+     font-family: var(--ff-main);
+     font-size: 16px;
+     font-weight: 600;
+}
+
+.featured_tittle {
+     color: #000;
+     font-family: var(--ff-main);
+     font-size: 20px;
+     font-weight: 500;
+     text-align: center;
+     padding-bottom: 16px;
+     border-bottom: solid 1px #E0E0E0;
+     margin-bottom: 31px;
+     padding-bottom: 16px;
+}
+
+.section {
+     background: #F3F4F6;
+     margin-inline: auto;
+     padding-bottom: 88px;
+     margin-bottom: 61px;
+}
+
+.section_inf {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+.section_tittle {
+     color: #2C1500;
+     font-family: var(--ff-main);
+     font-size: 40px;
+     font-weight: 700;
+     line-height: 56px;
+     padding-left: 97px;
+}
+
+.section_btn {
+     display: inline-block;
+     padding: 10px 20px;
+     border: 1px solid #156963;
+     background: #156963;
+
+     color: #FAFEFE;
+     text-align: center;
+     font-family: var(--ff-btn);
+     font-size: 14px;
+     font-weight: 700;
+     line-height: 20px;
+     margin-left: 97px;
+}
