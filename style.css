@@ -1,0 +1,137 @@
+/*font-family: "Nunito", sans-serif;
+ font-family: "Montserrat", sans-serif;*/
+* {
+     box-sizing: border-box;
+     padding: 0px;
+     margin: 0px;
+     border: 0px;
+}
+
+img {
+     max-width: 100%;
+}
+
+a {
+     text-decoration: none;
+}
+
+:root {
+     --main-color: #156963;
+     --ff-btn: "Nunito", sans-serif;
+     --ff-main: "Montserrat", sans-serif;
+}
+
+.container {
+     max-width: 1168px;
+     margin-inline: auto;
+}
+
+.header {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding-top: 40px;
+     margin-bottom: 197px;
+}
+
+.header__logo {}
+
+.logo {}
+
+.header__btn {
+     display: flex;
+     font-family: var(--ff-main);
+}
+
+.btn_sign-up {
+     display: inline-block;
+     padding: 8px 20px;
+
+     color: var(--main-color);
+     text-align: center;
+     font-size: 14px;
+     font-weight: 700;
+     line-height: 20px;
+}
+
+.btn_sign-in {
+     display: inline-block;
+     padding: 8px 20px;
+     background-color: var(--main-color);
+
+     color: #FFF;
+     text-align: center;
+     font-size: 14px;
+     font-weight: 700;
+     line-height: 20px;
+}
+
+.main {}
+
+.tittle {
+     text-align: center;
+     max-width: 523px;
+     margin-inline: auto;
+     margin-bottom: 316px;
+}
+
+h1 {
+     margin-bottom: 24px;
+     color: var(--main-color);
+     font-family: var(--ff-main);
+     font-size: 68px;
+     font-weight: 500;
+}
+
+.tittle_description {
+     color: #2C1500;
+     font-family: var(--ff-main);
+     font-size: 18px;
+     font-weight: 400;
+     line-height: 32px;
+     text-align: justify;
+
+}
+
+.block {
+     display: flex;
+     gap: 32px;
+}
+
+.block_elem > img {
+     padding-top: 16px;
+}
+
+.block_elem {
+     gap: 32px;
+     border: 1px solid #E0E0E0;
+     padding-top: 22px;
+     padding-left: 16px;
+     padding-bottom: 21px;
+}
+
+.block_elem_name {
+     color: var(--main-color);
+     font-family: var(--ff-main);
+     font-size: 16px;
+     font-weight: 700;
+     line-height: 24px;
+}
+
+.block_elem_description {
+     color: #2C1500;
+     font-family: var(--ff-main);
+     font-size: 10px;
+     font-weight: 400;
+     line-height: 16px;
+     padding-right: 16px;
+     text-align: justify;
+}
+
+.delivery {}
+
+.service {}
+
+.plants {}
+
+.price {}
